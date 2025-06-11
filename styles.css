@@ -1,0 +1,53 @@
+body{
+
+    background: linear-gradient(to right, rgb(190, 121, 199), rgb(165, 190, 197));
+    font-family: Arial, Helvetica, sans-serif;
+}
+  h1{
+color: rgb(125, 143, 221);
+  }
+
+header {
+    background-color: #2d116462;
+    color: rgb(207, 248, 245);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    background-color: #cccfdb;
+  }
+  
+  .navbar li {
+    position: relative;
+  }
+  
+  .navbar a {
+    display: block;
+    color: rgb(66, 68, 187);
+    padding: 14px 20px;
+    text-decoration: none;
+  }
+  
+  .navbar a:hover {
+    background-color: #a3ecda;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #79d1ca;
+    min-width: 160px;
+    z-index: 1;
+  }
+  
+  .dropdown-content li {
+    text-align: left;
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
